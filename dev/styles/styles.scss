@@ -1,0 +1,16 @@
+$blue: #091a35;
+$red: #601f0e;
+
+@import 'partials/normalize';
+@import 'partials/addJobForm';
+@import 'partials/nav';
+@import 'partials/jobPost';
+@import 'partials/addPosting';
+@import 'partials/newsletter';
+@import 'partials/adminNav';
+@import 'partials/login';
+
+.wrapper {
+    max-width: 1000px;
+    margin: 20px;
+}

@@ -1,0 +1,23 @@
+.addPosting {
+    display: flex;
+    flex-direction: column;
+    input {
+        padding: 10px;
+        margin-bottom: 10px;
+        width: 60%;
+    }
+    textarea {
+        width: 60%;
+        height: 50vh;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    button {
+        width: 150px;
+        background: $blue;
+        color: white;
+        border: none;
+        padding: 10px;
+    }
+}

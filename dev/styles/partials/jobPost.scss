@@ -1,0 +1,19 @@
+.jobPost {
+    box-shadow: 1px 1px 3px grey;
+    padding: 20px;
+}
+
+.jobListings {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.edit, .delete {
+    background: $blue;
+    color: white;
+    padding: 10px;
+    width: 70px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 20px;
+}
